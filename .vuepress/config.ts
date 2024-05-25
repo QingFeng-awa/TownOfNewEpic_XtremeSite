@@ -2,15 +2,20 @@ import { defineUserConfig } from "vuepress";
 import recoTheme from "vuepress-theme-reco";
 import { viteBundler } from '@vuepress/bundler-vite'
 import { webpackBundler } from '@vuepress/bundler-webpack'
+import { Xicon } from '@carbon/icons-react';
 
 export default defineUserConfig({
   lang: 'zh-CN',
   head: [['link', { rel: 'icon', href: 'https://cn-sy1.rains3.com/xtremewave/TONEX.jpg' }]],  
   title: 'TownOfNewEpic_Xtreme',
-  description: "Host only mod for Among Us, forked from Town Of Next",
+  description: "Host only Mod for Among Us, forked from Town Of Next",
   bundler: viteBundler(),
   // bundler: webpackBundler(),
   theme: recoTheme({
+    repo: 'XtremeWave/TownOfNewEpic_XtremeSite',
+    docsRepo: 'https://github.com/XtremeWave/TownOfNewEpic_XtremeSite',
+    docsDir: '/docs',
+    docsBranch: 'Main',
     style: "@vuepress-reco/style-default",
     logo: "https://cn-sy1.rains3.com/xtremewave/TONEX.jpg",
     author: "XtremeWave",
@@ -18,13 +23,7 @@ export default defineUserConfig({
     navbar: [
       {text: '首页', link: '/'},
       {text: '关于', link: '/about'},
-      //{
-        //text: "Docs",
-        //children: [
-        //  { text: "vuepress-reco", link: "/docs/theme-reco/theme" },
-        //  { text: "vuepress-theme-reco", link: "/blogs/other/guide" },
-        //],
-      //},
+      {text: '下载', link: '/download'}
       ],
     bulletin: {
       body: [
