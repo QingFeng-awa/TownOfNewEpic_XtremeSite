@@ -14,7 +14,6 @@ export default defineUserConfig({
   theme: recoTheme({
     repo: 'XtremeWave/TownOfNewEpic_XtremeSite',
     docsRepo: 'https://github.com/XtremeWave/TownOfNewEpic_XtremeSite',
-    docsDir: '/docs',
     docsBranch: 'Main',
     style: "@vuepress-reco/style-default",
     logo: "https://cn-sy1.rains3.com/xtremewave/TONEX.jpg",
@@ -23,7 +22,8 @@ export default defineUserConfig({
     navbar: [
       {text: '首页', link: '/'},
       {text: '关于', link: '/about'},
-      {text: '下载', link: '/download'}
+      {text: '教程', link: '/tutorial'},
+      {text: '下载', link: '/download'},
       ],
     bulletin: {
       body: [

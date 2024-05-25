@@ -2,7 +2,7 @@
 permalink: /download
 date: 2024-05-21
 title: 下载TONEX
-description: 
+description: 本页所指的TONEX版本使用字母+版本缩写表示。R为Releases,意为正式版,例如R1.2就是v1.2_20240521的正式版。P为Preview,意为预览版。D为Dev,意为开发版。B为Beta,意为测试版。C为Canary,同样也是测试版。Canary相对于Beta可能更加不稳定。
 ---
 ::: tip 提示
 

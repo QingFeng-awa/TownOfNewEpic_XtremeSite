@@ -1,6 +1,5 @@
 ---
 permalink: /about
-date: 2024-01-19
 title: 关于TONEX
 description: 自从2023年5月20日起，因为某些原因，TownOfHostEdited停止了开发。应广大玩家的请求, KARPED1EM为TownOfHostEdited保持最基本的兼容，并与TownOfHost同步更新，以确保有需要的玩家仍然可以正常游玩。正因如此，我们不必再以继承的名义制作模组，我们启动了一个新计划，称其为“TONEX”。
 ---
