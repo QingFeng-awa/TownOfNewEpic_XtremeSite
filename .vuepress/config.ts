@@ -14,7 +14,7 @@ export default defineUserConfig({
   theme: recoTheme({
     repo: 'XtremeWave/TownOfNewEpic_XtremeSite',
     docsRepo: 'https://github.com/XtremeWave/TownOfNewEpic_XtremeSite',
-    docsBranch: 'Main',
+    docsBranch: 'main',
     style: "@vuepress-reco/style-default",
     logo: "https://cn-sy1.rains3.com/xtremewave/TONEX.jpg",
     author: "XtremeWave",
