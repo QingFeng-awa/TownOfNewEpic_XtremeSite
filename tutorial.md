@@ -9,7 +9,7 @@ description:
 ::: danger 方法不适用
 该方法似乎不能正确的帮你安装TONEX。<br>
 请您尝试其它安装方法。<br>
-如果您发现了正确的安装方法,请在GitHub提交Pull requst。
+如果您发现了正确的安装方法,请在GitHub创建Pull requst。
 :::
 1. 打开Among Us根目录,一个原版AmongUs根目录看起来应该如下图所示。
 ![AmongUs根目录](https://cn-sy1.rains3.com/xtremewave/TONEX-tutorial1.png)
@@ -63,7 +63,7 @@ C:\Program Files (x86)\Steam\steamapps\common\Among Us\
 ### 适用于Epic的安装教程
 ::: danger 没有相关教程
 我们不知该如何撰写此教程。<br>
-如果您有想法,请在Github上提交Pull requst。
+如果您有想法,请在Github上创建Pull requst。
 :::
 
 ## 安装XtremeWave游戏服务器
@@ -101,4 +101,30 @@ XtremeWave暂不提供该程序。
 你可能需要以下操作防止Among Us修改你的`regionInfo.json`文件。
 1. 右键`regionInfo.json`,选择'属性'。
 2. 勾选'常规'选项卡中的'只读'选项,应用并确定。
+:::
+## 载入自定义预设
+1. 打开Among Us根目录,并打开`\TONEX_Data\SaveData`。
+::: tip 打开路径
+如果您使用Steam提供的C盘默认路径更换预设,那么您应该打开:
+```
+C:\Program Files (x86)\Steam\steamapps\common\Among Us\TONEX_Data\SaveData
+```
+:::
+2. 将其它玩家的`Options.json`移动到此文件夹并覆盖旧文件,安装完成。
+
+## 设置自定义`/n`消息
+1. 启动Among Us。
+2. 在Among Us启动并进入菜单后,按下`F5` + `X`导出语言文件。
+3. 打开Among Us根目录,并打开`Language`。
+::: tip 打开路径
+如果您使用Steam提供的C盘默认路径设置`/n`消息,那么您应该打开:
+```
+C:\Program Files (x86)\Steam\steamapps\common\Among Us\Language
+```
+:::
+4. 打开文件`export_SChinese.dat`,并找到`Message.NowOverrideText`开头行。
+5. 将`Message.NowOverrideText`后方的内容改为自己想要的内容。
+6. 保存文件,并将文件`export_SChinese.dat`重命名为`SChinese.dat`,修改完成。
+::: tip 须知
+在游戏内按下`F5` + `T`或重启游戏才会应用更改。
 :::
