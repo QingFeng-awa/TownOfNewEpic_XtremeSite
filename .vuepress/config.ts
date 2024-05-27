@@ -25,13 +25,6 @@ export default defineUserConfig({
       {text: '教程', link: '/tutorial'},
       {text: '下载', link: '/download'},
       {text: '疑难', link: '/FAQ'},
-      {
-        text: '更新公告',
-        children: [
-          { text: '1.0_20240209(正式版本)', link: '' },
-          { text: '1.0_20240308(版本补丁)', link: '' },
-        ],
-      },
     ],
     bulletin: {
       body: [
@@ -39,24 +32,6 @@ export default defineUserConfig({
           type: "text",
           content: `TONEX官方网站尚未完善职业文档。<br>
           我们将尽快完成职业文档,感谢您的理解。`,
-          style: "font-size: 12px;",
-        },
-        {
-          type: "hr",
-        },
-        {
-          type: "title",
-          content: "加入我们",
-        },
-        {
-          type: "text",
-          content: `
-          <ul>
-            <li><a herf="https://qm.qq.com/q/SQ9b6vMEko">点击加入QQ群</a></li>
-            <li><a herf="https://github.com/XtremeWave/TownOfNewEpic_Xtreme">点击访问GitHub</a></li>
-            <li><a herf="https://gitee.com/TEAM_TONEX/TownOfNewEpic_Xtreme">点击访问Gitee</a></li>
-            <li><a herf="https://www.xtreme.net.cn">点击访问XtremeWave官网</a></li>
-          </ul>`,
           style: "font-size: 12px;",
         },
         {
