@@ -24,14 +24,21 @@ export default defineUserConfig({
       {text: '关于', link: '/about'},
       {text: '教程', link: '/tutorial'},
       {text: '下载', link: '/download'},
-      ],
+      {text: '疑难', link: '/FAQ'},
+      {
+        text: '更新公告',
+        children: [
+          { text: '1.0_20240209', link: '/ModNews/1.0_20240209' },
+          { text: '1.0_20240308(版本补丁)', link: '/ModNews/1.0_202240308'},
+        ],
+      },
+    ],
     bulletin: {
       body: [
         {
           type: "text",
-          content: `TONEX官方网站尚未完成开发。<br>
-          如果你想要前往已经完成的TONEX官网,<br>
-          请访问<a href="https://www.xtreme.net.cn">XtremeWave官网</a>。`,
+          content: `TONEX官方网站尚未完善职业文档。<br>
+          我们将尽快完成职业文档,感谢您的理解。`,
           style: "font-size: 12px;",
         },
         {
