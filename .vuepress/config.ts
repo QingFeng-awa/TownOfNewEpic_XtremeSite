@@ -28,8 +28,8 @@ export default defineUserConfig({
       {
         text: '更新公告',
         children: [
-          { text: '1.0_20240209', link: '/ModNews/1.0_20240209' },
-          { text: '1.0_20240308(版本补丁)', link: '/ModNews/1.0_202240308'},
+          { text: '1.0_20240209(正式版本)', link: '' },
+          { text: '1.0_20240308(版本补丁)', link: '' },
         ],
       },
     ],
