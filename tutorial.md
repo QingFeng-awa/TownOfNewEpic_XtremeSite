@@ -5,6 +5,8 @@ description:
 ---
 ## 安装教程
 ### 适用于Steam的安装教程
+
+<!--
 #### 通过dll安装(推荐)
 ::: danger 方法不适用
 该方法似乎不能正确的帮你安装TONEX。<br>
@@ -35,6 +37,7 @@ C:\Program Files (x86)\Steam\steamapps\common\Among Us\
 当你第一次启动时,你可能会发现Among Us迟迟没有弹出窗口,或者是弹出了一个控制台。<br>
 请不要担心,这是BepInEx & TONEX正在补全文件,因此请您多等待一会。
 :::
+-->
 
 #### 通过安装包安装
 1. 打开Among Us根目录,一个原版AmongUs根目录看起来应该如下图所示。
@@ -56,9 +59,11 @@ C:\Program Files (x86)\Steam\steamapps\common\Among Us\
 请不要担心,这是BepInEx & TONEX正在补全文件,因此请您多等待一会。
 :::
 
+<!--
 #### 通过懒人包安装
 ***呃……<br>
 在我们提供懒人包之后,我们就会更新此教程。***
+-->
 
 ### 适用于Epic的安装教程
 ::: danger 没有相关教程
