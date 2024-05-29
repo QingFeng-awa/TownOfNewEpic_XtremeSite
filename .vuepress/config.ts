@@ -12,6 +12,7 @@ export default defineUserConfig({
   bundler: viteBundler(),
   // bundler: webpackBundler(),
   theme: recoTheme({
+    home: 'index.md',
     repo: 'XtremeWave/TownOfNewEpic_XtremeSite',
     docsRepo: 'https://github.com/XtremeWave/TownOfNewEpic_XtremeSite',
     docsBranch: 'main',
