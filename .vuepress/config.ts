@@ -7,7 +7,7 @@ import { Xicon } from '@carbon/icons-react';
 export default defineUserConfig({
   lang: 'zh-CN',
   head: [['link', { rel: 'icon', href: 'https://cn-sy1.rains3.com/xtremewave/TONEX.jpg' }]],  
-  title: 'TownOfNewEpic_Xtreme',
+  title: 'TONEX官方网站',
   description: "Host only Mod for Among Us, forked from Town Of Next",
   bundler: viteBundler(),
   theme: recoTheme({
