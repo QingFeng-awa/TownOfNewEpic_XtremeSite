@@ -10,7 +10,6 @@ export default defineUserConfig({
   title: 'TownOfNewEpic_Xtreme',
   description: "Host only Mod for Among Us, forked from Town Of Next",
   bundler: viteBundler(),
-  // bundler: webpackBundler(),
   theme: recoTheme({
     home: '/index.md',
     repo: 'XtremeWave/TownOfNewEpic_XtremeSite',
@@ -25,30 +24,41 @@ export default defineUserConfig({
       {text: '关于', link: '/about'},
       {text: '教程', link: '/tutorial'},
       {text: '下载', link: '/download'},
+      {text: '职业',
+        children: [
+          { text: '船员职业', link: '/' },
+          { text: '内鬼职业', link: '/Impostor/BountyHunter.html' },
+          { text: '中立职业', link: '/' },
+          { text: '附加职业', link: '/' },
+        ],
+      },
       {text: '疑难', link: '/FAQ'},
     ],
-    bulletin: {
-      body: [
-        {
-          type: "text",
-          content: `TONEX官方网站尚未完善职业文档。<br>
-          我们将尽快完成职业文档,感谢您的理解。`,
-          style: "font-size: 12px;",
-        },
-        {
-          type: "hr",
-        },
-        {
-          type: "buttongroup",
-          children: [
-            {
-              text: "赞助",
-              link: "https://www.xtreme.net.cn/donate",
-            },
-          ],
-        },
-      ],
+    series: {
+      '/Impostor/': [ '/Impostor/BountyHunter' ],
     },
+    //bulletin: {
+    //  body: [
+    //    {
+    //      type: "text",
+    //      content: `TONEX官方网站尚未完善职业文档。<br>
+    //      我们将尽快完成职业文档,感谢您的理解。`,
+    //      style: "font-size: 12px;",
+    //    },
+    //    {
+    //      type: "hr",
+    //    },
+    //    {
+    //      type: "buttongroup",
+    //      children: [
+    //        {
+    //          text: "赞助",
+    //          link: "https://www.xtreme.net.cn/donate",
+    //        },
+    //      ],
+    //    },
+    //  ],
+    //},
     // commentConfig: {
     //   type: 'valine',
     //   // options 与 1.x 的 valineConfig 配置一致
