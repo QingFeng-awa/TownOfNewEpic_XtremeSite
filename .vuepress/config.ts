@@ -27,7 +27,7 @@ export default defineUserConfig({
       {text: '职业',
         children: [
           { text: '船员职业', link: '/' },
-          { text: '内鬼职业', link: '/Impostor/BountyHunter.html' },
+          { text: '内鬼职业', link: '/Impostor/' },
           { text: '中立职业', link: '/' },
           { text: '附加职业', link: '/' },
         ],

@@ -12,7 +12,7 @@ bannerBrand:
     - { text: 关于模组, link: '/about', type: 'plain'}
     - { text: 模组教程, link: '/tutorial', type: 'plain' }
     - { text: 下载模组, link: '/download' }
-    - { text: 职业介绍, link: '/Impostor/BountyHunter.html', type: 'plain' }
+    - { text: 职业介绍, link: '/Impostor/', type: 'plain' }
     - { text: 疑难解答, link: '/FAQ', type: 'plain' }
 startYear: 2024
 ---
