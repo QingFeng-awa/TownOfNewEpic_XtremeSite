@@ -35,7 +35,7 @@ export default defineUserConfig({
       {text: '疑难', link: '/FAQ'},
     ],
     series: {
-      '/Impostor/': [ '/Impostor/BountyHunter','/Impostor/Mare' ],
+      '/Impostor/': [ '/Impostor/BountyHunter','/Impostor/Mare','/Impostor/Fireworker' ],
     },
     //bulletin: {
     //  body: [
