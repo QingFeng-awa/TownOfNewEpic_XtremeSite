@@ -1,7 +1,7 @@
 name: Bug反馈
 description: 报告在浏览网站中遇到的问题。
 title: "[Bug]: "
-labels: ["反馈:问题"]
+labels: ["类型:bug"]
 # projects: ["octo-org/1", "octo-org/44"]
 assignees:
   - QingFeng-awa
@@ -49,7 +49,7 @@ body:
     id: logs
     attributes:
       label: 相关日志输出
-      description: 请复制并粘贴任何相关的日志输出,这将自动格式化为代码,因此无需反引导。
+      description: 请复制并粘贴任何相关的日志输出(例如网站显示的报错),这将自动格式化为代码,因此无需反引导。
       render: shell
   - type: textarea
     id: other

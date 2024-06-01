@@ -1,7 +1,7 @@
-name: 新功能建议
-description: 为网站提供一些好的想法。
+name: 已有功能优化
+description: 为已有内容提出优化建议。
 title: "[Feature]: "
-labels: ["类型:需求"]
+labels: ["类型:优化"]
 # projects: ["octo-org/1", "octo-org/44"]
 assignees:
   - QingFeng-awa
@@ -9,8 +9,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        感谢您愿意花费时间来为TONEX官方网站贡献想法。<br>
-        XtremeWaveWebSite(XWS)欢迎您提出自己的想法。
+        感谢您愿意为已有内容提出更好的优化建议。
   - type: input
     id: Email
     attributes:
@@ -21,16 +20,17 @@ body:
   - type: textarea
     id: main
     attributes:
-      label: 新功能的详细描述是什么?
+      label: 想优化的内容是什么?
+      description: 为了开发者快速查找,请直接将要优化的内容URL粘贴到此处。
     validations:
       required: true
   - type: textarea
     id: programme
     attributes:
-      label: 此功能的实现思路是什么?
+      label: 想要优化此内容的什么?
       description: 请您描述的详细一点。
     validations:
-      required: false
+      required: true
   - type: textarea
     id: other
     attributes:
