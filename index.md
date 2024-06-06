@@ -2,6 +2,7 @@
 home: true
 modules:
   - BannerBrand
+  - Blog
   - Footer
 bannerBrand:
   bgImage: '/bg.svg'
@@ -14,5 +15,9 @@ bannerBrand:
     - { text: 下载模组, link: '/download' }
     - { text: 职业介绍, link: '/Impostor/', type: 'plain' }
     - { text: 疑难解答, link: '/FAQ', type: 'plain' }
-startYear: 2024
+blog:
+  socialLinks:
+    - { icon: 'LogoGithub', link: 'https://github.com/XtremeWave' }
+footer:
+  startYear: 2024
 ---
