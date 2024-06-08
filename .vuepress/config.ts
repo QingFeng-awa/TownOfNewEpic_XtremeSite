@@ -40,25 +40,21 @@ export default defineUserConfig({
       '/Impostor/': [ '/Impostor/BountyHunter','/Impostor/Mare','/Impostor/Fireworker','/Impostor/SerialKiller' ],
     },
     bulletin: {
-     body: [
-       {
-         type: "text",
-         content: `职业文档更新策略发生了变化。<br>如需了解详细信息,请<a href="https://github.com/XtremeWave/TownOfNewEpic_XtremeSite/issues/9" target="_blank" >点击此处。</a>`,
-         style: "font-size: 12px;",
-       },
-       {
-         type: "hr",
-       },
-       {
-         type: "buttongroup",
-         children: [
-           {
-             text: "赞助",
-             link: "https://www.xtreme.net.cn/donate",
-           },
-         ],
-       },
-     ],
+      body: [
+        { type: 'title', content: 'XtremeWave网站开发招募' },
+        {
+          type: 'text',
+          content: `若您想要加入我们,在您阅读完<a href="https://www.xtreme.net.cn/933187.html">'加入XtremeWave'</a>文章后,请联系QingFeng。`,
+          style: 'font-size: 12px;'
+        },
+        { type: 'hr' },
+        {
+          type: 'buttongroup',
+          children: [
+            { text: '赞赏', link: '/donate' },
+          ],
+        },
+      ],
     },
     //commentConfig: {
     //  type: 'valine',
