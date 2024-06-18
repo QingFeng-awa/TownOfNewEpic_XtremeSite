@@ -1,7 +1,7 @@
 ---
 permalink: /Impostor/SerialKiller.html
 title: 嗜血杀手
-description: 
+description: 嗜血杀手的击杀冷却很短。若嗜血杀手在指定时间内没有击杀玩家，嗜血杀手就会自杀。
 date: 2024-05-21
 ---
 ![嗜血杀手](https://cn-sy1.rains3.com/xtremewave/SerialKiller.png)

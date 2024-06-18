@@ -1,7 +1,7 @@
 ---
 permalink: /Impostor/Fireworker.html
 title: 烟花商人
-description: 
+description: 烟花商人可以安放烟花炸弹,造成范围性杀伤。当存活的内鬼阵营玩家仅剩烟花商人且烟花炸弹安置完毕时,烟花商人可以使用变形下引爆炸弹。烟花炸弹可以同样炸死烟花商人自己。如果烟花炸死所有存活玩家,那也算内鬼阵营胜利。
 date: 2024-05-21
 ---
 ![烟花商人](https://cn-sy1.rains3.com/xtremewave/Fireworker.png)

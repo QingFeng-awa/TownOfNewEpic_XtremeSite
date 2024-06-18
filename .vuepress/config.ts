@@ -26,21 +26,29 @@ export default defineUserConfig({
       {text: '关于', link: '/about'},
       {text: '教程', link: '/tutorial'},
       {text: '下载', link: '/download'},
-      {text: '职业',
-        children: [
-          { text: '船员职业', link: '/' },
-          { text: '内鬼职业', link: '/Impostor/' },
-          { text: '中立职业', link: '/' },
-          { text: '附加职业', link: '/' },
-        ],
-      },
+      {text: '预设', link: '/Config/default.html'},
+      //{text: '职业',
+      //  children: [
+      //    { text: '船员职业', link: '/' },
+      //    { text: '内鬼职业', link: '/Impostor/' },
+      //    { text: '中立职业', link: '/' },
+      //    { text: '附加职业', link: '/' },
+      //  ],
+      //},
       {text: '疑难', link: '/FAQ'},
     ],
     series: {
       '/Impostor/': [ '/Impostor/BountyHunter','/Impostor/Mare','/Impostor/Fireworker','/Impostor/SerialKiller' ],
+      '/Config/': [ '/Config/default'],
     },
     bulletin: {
       body: [
+        { type: 'title', content: '不要更新Among Us至2024.6.18' },
+        {
+          type: 'text',
+          content: `由于模组以及私服尚不支持2024.6.18,请不要更新最新版Among Us。<br>这会导致你无法加入XW私服以及使用TONEX模组。<br>由于此次改动代码超过80%,我们的适配可能需要<strong>长达1周</strong>。`,
+          style: 'font-size: 12px;'
+        },
         { type: 'title', content: 'XtremeWave网站开发招募' },
         {
           type: 'text',
