@@ -36,6 +36,7 @@ export default defineUserConfig({
       //  ],
       //},
       {text: '疑难', link: '/FAQ'},
+      {text: '服务状态', link: 'https://status.qingfengawa.me/status/xtremewave'},
     ],
     series: {
       '/Impostor/': [ '/Impostor/BountyHunter','/Impostor/Mare','/Impostor/Fireworker','/Impostor/SerialKiller' ],
