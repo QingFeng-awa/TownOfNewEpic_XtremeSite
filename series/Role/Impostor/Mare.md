@@ -1,5 +1,5 @@
 ---
-permalink: /Impostor/Mare.html
+permalink: /Role/Impostor/Mare.html
 title: 梦魇
 description: 梦魇只能在停电时下进行正常击杀。若梦魇击杀成功，梦魇的击杀冷却将变成原来的一半。此外，停电持续的时间内梦魇的移动速度也会增加。停电时间内内所有玩家都能看到梦魇的名字以红色表示。梦魇在电力恢复的情况下击杀会让目标的视野里显示电力被破坏。
 date: 2024-05-21

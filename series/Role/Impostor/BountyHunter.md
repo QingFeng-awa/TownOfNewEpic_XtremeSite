@@ -1,5 +1,5 @@
 ---
-permalink: /Impostor/BountyHunter.html
+permalink: /Role/Impostor/BountyHunter.html
 title: 赏金猎人
 description: 赏金猎人会被随机分配一个悬赏目标,若在规定时间内击杀了悬赏目标,则击杀CD会变得很短,能立刻进行下一次击杀。若赏金猎人击杀的人不是赏金目标,则击杀CD会被延长。若赏金猎人在规定时间内没有完成任何击杀,则目标会被随机切换为另一个人。
 date: 2024-05-21
