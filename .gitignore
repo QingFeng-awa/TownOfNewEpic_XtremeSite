@@ -1,6 +1,4 @@
 .vuepress/.cache
 .vuepress/.temp
-node_modules
-Readme.md
-README.md
-readme.md
+node_modules/
+secrets/
