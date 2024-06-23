@@ -44,17 +44,25 @@ export default defineUserConfig({
     },
     bulletin: {
       body: [
+        { type: 'title', content: '官方群聊被意外封禁' },
+        {
+          type: 'text',
+          content: `由于TONEX官方群聊被证实发送发动言论,官群现已被腾讯封禁。<br>请等待新官群,感谢您的配合。`,
+          style: 'font-size: 14px;'
+        },
+        { type: 'hr' },
         { type: 'title', content: '不要更新Among Us至2024.6.18' },
         {
           type: 'text',
           content: `由于模组以及私服尚不支持2024.6.18,请不要更新最新版Among Us。<br>这会导致你无法加入XW私服以及使用TONEX模组。<br>由于此次改动代码超过80%,我们的适配可能需要<strong>长达1周</strong>。`,
-          style: 'font-size: 12px;'
+          style: 'font-size: 14px;'
         },
+        { type: 'hr' },
         { type: 'title', content: 'XtremeWave网站开发招募' },
         {
           type: 'text',
           content: `若您想要加入我们,在您阅读完<a href="https://www.xtreme.net.cn/933187.html">'加入XtremeWave'</a>文章后,请联系QingFeng。`,
-          style: 'font-size: 12px;'
+          style: 'font-size: 14px;'
         },
         { type: 'hr' },
         {
