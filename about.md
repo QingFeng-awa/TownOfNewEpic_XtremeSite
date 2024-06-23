@@ -19,10 +19,14 @@ TownOfNewEpic_Xtreme,Among Us优秀领导者。
 目前,此更改不是永久性的。
 :::
 ## 关于TONEX
-自从2023年5月20日起,因为某些原因,TownOfHostEdited停止了开发。<br>
-应广大玩家的请求, KARPED1EM为TownOfHostEdited保持最基本的兼容,并与TownOfHost同步更新,以确保有需要的玩家仍然可以正常游玩。<br>
-正因如此,我们不必再以继承的名义制作模组,我们启动了一个新计划,称其为“TONEX”。<br>
-_TownOfHostEdited已更名为TownOfNext。_
+*2023年5月20日*,[TownOfHostEdited(TOHE)](https://tohe.cc)停止了开发。<br>
+为了延续TOHE的“火种”,我们开发了一个名为[TownOfHostEdited_Xi(TOHEX)](https://tohex.cc)的分支项目。<br>
+然而,这个项目的开发并不是一帆风顺,我们的口碑持续下滑,我们的开发毫无成果。<br>
+最终,TOHEX结束在了*2023年11月17日*。<br>
+在此之后,应广大玩家的请求,[KARPED1EM](https://leever.cn)为TOHE保持最基本的兼容,并将其更名为[TownOfNext(TONX)](https://tonx.cc)。<br>
+因此,我们基于TONX进行改良并重新制作了TOHEX,组建了全新的制作组[XtremeWave](https://www.xtreme.net.cn),弥补过去的错误并以全新的面貌回归,[TownOfNewEpic_Xtreme(TONEX)](https://tonex.cc)就此诞生。<br>
+如今的TONX再一次终止了更新,而我们也在TONEX恢复了TONX未来得及完成的TOHE的全部内容。<br>
+**让我们再一次,以“传承”的名义,继续模组的制作!**
 
 ## 部分想法来源 & 提供支持
 - Town Of Host
