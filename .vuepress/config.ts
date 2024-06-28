@@ -44,6 +44,13 @@ export default defineUserConfig({
     },
     bulletin: {
       body: [
+        { type: 'title', content: '车队姬无限期延期上线的通知' },
+        {
+          type: 'text',
+          content: `因QingFeng个人原因,QingFeng决定将车队姬无限期延期上线。`,
+          style: 'font-size: 14px;'
+        },
+        { type: 'hr' },
         { type: 'title', content: '官方群聊被意外封禁' },
         {
           type: 'text',
