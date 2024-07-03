@@ -50,6 +50,5 @@ TownOfNewEpic_Xtreme,Among Us优秀领导者。
 感谢这些模组以及他们优秀的想法,是他们造就了我们。<br>
 更要感谢长久以来支持我们的玩家们,是你们给予了我们继续这个项目的动力！
 ## 加入TONEX
-[点击此处加入TONEX官方QQ群](https://qm.qq.com/q/lH6L1HTyDK)<br>
 [点击此处访问TONEX官方GitHub仓库](https://github.com/XtremeWave/TownOfNewEpic_Xtreme)<br>
 [点击此处访问TONEX官方Gitee仓库](https://gitee.com/TEAM_TONEX/TownOfNewEpic_Xtreme)
