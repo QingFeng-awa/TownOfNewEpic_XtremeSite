@@ -51,7 +51,7 @@ export default defineUserConfig({
           style: 'font-size: 14px;'
         },
         { type: 'hr' },
-        { type: 'title', content: '官方群聊被意外封禁' },
+        { type: 'title', content: '官方群聊被封禁' },
         {
           type: 'text',
           content: `由于TONEX官方群聊被证实发送发动言论,官群现已被腾讯封禁。<br>请等待新官群,感谢您的配合。`,
