@@ -42,16 +42,16 @@ export default defineUserConfig({
           { text: '首页', link: '/', icon: 'Home' },
           { text: '关于', link: '/about', icon: 'Quotes' },
           { text: '指南', link: '/guide', icon: 'Compass' },
-          { text: '下载', link: '/download', icon: 'Download' },
+          { text: '下载', link: 'https://www.xtreme.net.cn/download/tonex/release', icon: 'Download' },
           //{ text: '职业', link: 'https://docs.tonex.cc', icon: 'UserProfile' },
           { text: '疑难', link: '/FAQ', icon: 'Query' },
         ],
         bulletin: {
           body: [
-            { type: 'title', content: 'TONEX官方网站<i>强势回归</i>' },
+            { type: 'title', content: 'QingFeng将于2025年停止服务' },
             {
               type: 'text',
-              content: '网站重出江湖辣!',
+              content: '因未来规划调整,我们将在2025年停止对XtremeWave的云服务支持。',
               style: 'font-size: 14px;'
             },
             { type: 'hr' },
