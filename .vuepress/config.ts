@@ -46,7 +46,7 @@ export default defineUserConfig({
           //{ text: '职业', link: 'https://docs.tonex.cc', icon: 'UserProfile' },
           { text: '疑难', link: '/FAQ', icon: 'Query' },
         ],
-        bulletin: {
+        /*bulletin: {
           body: [
             { type: 'title', content: 'QingFeng将于2025年停止服务' },
             {
@@ -62,7 +62,7 @@ export default defineUserConfig({
               ],
             },
           ],
-        },
+        },*/
       },
       /*'/en/': {
         selectLanguageName: 'English',
